@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 // Define a contract named 'SimpleStorage'
 contract SimpleStorage {
     // This will be stored permanently in the blockchain
-    uint256 private storedNumber;
+    uint256 public storedNumber;
 
     // Function to store a number
     // 'public' makes the function callable from outside the contract    
